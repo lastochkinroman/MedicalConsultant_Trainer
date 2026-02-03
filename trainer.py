@@ -9,6 +9,9 @@ class MedicalTrainer:
         self.scenarios = MEDICAL_SCENARIOS
         self.active_sessions = {}
 
+    def get_scenario_by_id(self, scenario_id: int):
+        return get_scenario_by_id(scenario_id)
+
     def create_session(self, user_id: int, scenario_id: int):
         scenario = get_scenario_by_id(scenario_id)
         if not scenario:

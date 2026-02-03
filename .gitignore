@@ -1,1 +1,43 @@
+# Environment variables
 .env
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.venv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test coverage
+htmlcov/
+.coverage
+.pytest_cache/
